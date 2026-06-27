@@ -35,7 +35,9 @@ PrismHire/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+Model files (FAISS index & embeddings) are not included due to size limits.
+They can be generated using:
+python notebooks/build_index.py
 ## Candidate Ranking Formula
 
 Final Score =
